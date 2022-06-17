@@ -1,0 +1,250 @@
+body{
+    background-color:thistle;
+}
+
+
+/* Navbar container */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+    margin:20px 0 0 0;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index:auto;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .navbar a:active{
+    background-color: #abdbe0;
+    color:purple;
+  }
+  
+  /* Style the search box inside the navigation bar */
+  .navbar input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin:10px 20px 10px 0;
+    font-size: 17px;
+  }
+  
+  /*styling the language choosing bar */
+  #select{
+    float:right;
+    margin:15px 20px 10px 0;
+  }
+
+  /*styling the main image */
+ .container {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-top: 3%;
+  }
+  
+  /*styling the text in the main image*/
+#text {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+    font-family: cursive;
+    color:black;
+}
+
+
+h1{
+  font-size: 40px;
+  font-family: fantasy;
+  margin:3% 0 0 5%;
+  text-decoration: underline blueviolet;
+}
+
+h3{
+  font-size: 40px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin:3% 0 0 15%;
+}
+
+.heading2 img{
+  margin:5% 0 0 5% ;
+  border:3px solid black;
+  padding:3px
+}
+
+.heading2 article{
+  font-size:30px;
+  font-family: cursive;
+  margin: 3% 0 0 5%
+}
+
+.heading2 a{
+  margin-left:30%;
+  font-size: 30px;
+  font-family: monospace;
+  text-decoration: none;
+  color:darkblue;
+}
+
+.heading2 a:hover{
+  background-color: whitesmoke;
+  border-bottom: 3px solid darkred;
+}
+
+.activities img{
+  margin:5% 0 0 5% ;
+  border:3px solid black;
+  padding:3px
+}
+
+.activities article{
+  font-size:30px;
+  font-family: cursive;
+  margin: 3% 0 0 5%
+}
+
+.activities a{
+  margin-left:30%;
+  font-size: 30px;
+  font-family: monospace;
+  text-decoration: none;
+  color:darkblue;
+}
+
+.activities a:hover{
+  background-color: whitesmoke;
+  border-bottom: 3px solid darkred;
+}
+
+.heritage h3{
+  margin:5% 0 0 10%;
+}
+
+.heritage img{
+  margin:5% 0 0 10% ;
+  transition: transform .2s; /* Animation */
+}
+
+.heritage img:hover{
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.camping h3{
+  margin-left: 35%;
+}
+
+.camping img{
+  margin: 2% 0 2% 35%;
+}
+
+.camping article{
+  font-size:30px;
+  font-family: cursive;
+  text-align: center;
+}
+
+.camping a{
+  margin: 3% 0 2% 35%;
+  font-size: 30px;
+  font-family: monospace;
+  text-decoration: none;
+  color:darkblue;
+}
+
+.camping a:hover{
+  background-color: whitesmoke;
+  border-bottom: 3px solid darkred;
+
+}
+
+hr{
+  color: purple;
+  margin:2% 0 2% 0;
+}
+
+
+.finish h4{
+  font-size: 30px;
+  font-family: monospace;
+  color: black;
+  margin:2% 0 0 3%
+}
+
+.finish img{
+  margin-left: 3%;
+}
+
+.finish a{
+  margin-left: 3%;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  font-family: monospace;
+}
+
+.finish a:hover{
+  color: whitesmoke;
+  border-bottom: 3px solid brown;
+}
+
